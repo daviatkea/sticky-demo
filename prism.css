@@ -74,7 +74,9 @@ pre[class*="language-"] {
   color: #e2777a;
 }
 
-.token.selector,
+.token.selector {
+  color: #f4eee4;
+}
 .token.property {
   color: #72f1b8;
   // color: var(--ui-primary);

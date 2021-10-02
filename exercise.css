@@ -86,11 +86,13 @@ li {
 
 aside code {
   display: inline-block;
-  padding-inline: 0.5rem;
+  padding-inline: 0.2rem;
+  padding-block: 0.2rem 0.1rem;
   font-size: 0.9em;
   font-weight: 700;
+  line-height: 1;
   font-family: Consolas, Monaco, "Andale Mono", "Ubuntu Mono", monospace !important;
   background: #2a2138;
   color: #72f1b8;
-  border-radius: 8px;
+  border-radius: 3px;
 }
