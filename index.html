@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sticky</title>
+    <link rel="stylesheet" href="prism.css" />
+    <link rel="stylesheet" href="exercise.css" />
+    <link rel="stylesheet" href="din.css" />
+  </head>
+  <body>
+    <aside>
+      <h2>Klæbende element</h2>
+      <ol>
+        <li>
+          Få <code>.sticky-item</code> til at sidde fast i bunden af
+          <code>.sticky-container</code>, indtil man scroller forbi, hvorefter
+          den skal sidde fast i toppen.
+        </li>
+        <li>
+          Begge <code>h2</code>'er i containeren skal sidde fast i toppen, når
+          man scroller.
+        </li>
+        <li>
+          <code>.sticky-item</code> skal lægge sig under efterfølgende
+          <code>.content</code>.
+        </li>
+      </ol>
+      <figure class="video">
+        <video
+          src="sticky.mp4"
+          preload="metadata"
+          loop
+          muted
+          autoplay
+          controls
+        ></video>
+        <figcaption>Reference</figcaption>
+      </figure>
+    </aside>
+    <main>
+      <section class="sticky-container">
+        <div class="content">
+          <h2>Lorem, ipsum dolor.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            ipsa adipisci animi minus temporibus possimus rerum odio totam vitae
+            sequi labore laudantium nulla harum consectetur, illo similique
+            facilis, velit culpa. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Commodi ipsa adipisci animi minus temporibus
+            possimus rerum odio totam vitae sequi labore laudantium nulla harum
+            consectetur, illo similique facilis, velit culpa. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Commodi ipsa adipisci animi
+            minus temporibus possimus rerum odio totam vitae sequi labore
+            laudantium nulla harum consectetur, illo similique facilis, velit
+            culpa.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            ipsa adipisci animi minus temporibus possimus rerum odio totam vitae
+            sequi labore laudantium nulla harum consectetur, illo similique
+            facilis, velit culpa. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Commodi ipsa adipisci animi minus temporibus
+            possimus rerum odio totam vitae sequi labore laudantium nulla harum
+            consectetur, illo similique facilis, velit culpa. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Commodi ipsa adipisci animi
+            minus temporibus possimus rerum odio totam vitae sequi labore
+            laudantium nulla harum consectetur, illo similique facilis, velit
+            culpa.
+          </p>
+        </div>
+        <div class="sticky-item">
+          <h2>I am sticky</h2>
+        </div>
+        <div class="content">
+          <h2>Lorem, ipsum.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            ipsa adipisci animi minus temporibus possimus rerum odio totam vitae
+            sequi labore laudantium nulla harum consectetur, illo similique
+            facilis, velit culpa. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Commodi ipsa adipisci animi minus temporibus
+            possimus rerum odio totam vitae sequi labore laudantium nulla harum
+            consectetur, illo similique facilis, velit culpa. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Commodi ipsa adipisci animi
+            minus temporibus possimus rerum odio totam vitae sequi labore
+            laudantium nulla harum consectetur, illo similique facilis, velit
+            culpa.
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
+            ipsa adipisci animi minus temporibus possimus rerum odio totam vitae
+            sequi labore laudantium nulla harum consectetur, illo similique
+            facilis, velit culpa. Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Commodi ipsa adipisci animi minus temporibus
+            possimus rerum odio totam vitae sequi labore laudantium nulla harum
+            consectetur, illo similique facilis, velit culpa. Lorem ipsum dolor
+            sit amet consectetur adipisicing elit. Commodi ipsa adipisci animi
+            minus temporibus possimus rerum odio totam vitae sequi labore
+            laudantium nulla harum consectetur, illo similique facilis, velit
+            culpa.
+          </p>
+        </div>
+      </section>
+      <div class="editor">
+        <textarea
+          aria-label="sticky code"
+          autocorrect="off"
+          autocomplete="off"
+          spellcheck="false"
+          autocapitalize="off"
+          class="prism-live language-css"
+        >
+.sticky-item {
+  
+}</textarea
+        >
+        <style class="style"></style>
+      </div>
+    </main>
+
+    <script src="script/bliss.js"></script>
+    <script src="script/prism.js"></script>
+    <script src="script/prism-live.js"></script>
+    <script src="script/prism-live-markup.js"></script>
+    <script src="script/prism-live-css.js"></script>
+    <script type="module" src="script/custom.js"></script>
+  </body>
+</html>
