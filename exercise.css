@@ -96,3 +96,6 @@ aside code {
   color: #72f1b8;
   border-radius: 3px;
 }
+pre.prism-live {
+  padding-block-end: 3rem;
+}
